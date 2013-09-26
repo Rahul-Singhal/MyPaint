@@ -45,32 +45,21 @@ ADDITIONAL IMPLEMENTATION:
 
 KEYS TO USE
 ---------------------------
-
-(a) ’N’ : Initialize a new canvas, including all elements of the 2D array
-to the background color. Assume that the size of canvas is equal
-to the size of your window (and is fixed). Take the background
-3
-color for the canvas as input from the terminal or an initial config
+(a) ’N’ : Initialize a new canvas, including all elements of the 2D array to the background color. Assume that the size of canvas is equal
+to the size of your window (and is fixed). Take the background color for the canvas as input from the terminal or an initial config
 file.
 (b) ’D’ : Initialize a new drawing.
 (c) ’S/L’ : Save/Load drawing. For load, input filename on terminal.
-(d) ’1’: Toggle Line drawing mode. Left clicking on the drawing line
-should draw a line between two successively clicked points, with
+(d) ’1’: Toggle Line drawing mode. Left clicking on the drawing line should draw a line between two successively clicked points, with
 the current pen.
-(e) ’2’: Toggle Polygon drawing mode. Left clicking on the drawing
-line should draw a line between two successively clicked points,
+(e) ’2’: Toggle Polygon drawing mode. Left clicking on the drawing line should draw a line between two successively clicked points,
 with the current pen.
-(f) ’F’: Toggle Fill mode. Left clicking anywhere in the drawing now
-fills that bounded region with current fill color and type. When
-this mode is on, you will draw the 2D array to the screen. Read
-chapter 8 in the OpenGL programming guide on “Drawing Pixels,
-Bitmaps, Fonts, and Images” to figure out how to draw a array
-to the screen. Remember to set your coordinate system properly
-(see examples in the chapter mentioned above). When fill mode
-is off, directly draw only the lines and polygon boundaries to the
+(f) ’F’: Toggle Fill mode. Left clicking anywhere in the drawing now fills that bounded region with current fill color and type. When
+this mode is on, you will draw the 2D array to the screen. Read chapter 8 in the OpenGL programming guide on “Drawing Pixels,
+Bitmaps, Fonts, and Images” to figure out how to draw a array to the screen. Remember to set your coordinate system properly
+(see examples in the chapter mentioned above). When fill mode is off, directly draw only the lines and polygon boundaries to the
 screen using the corresponding draw functions.
-(g) ’C’: If fill mode is active, pressing ’C’ must let you change the
-current fill type and colors, else it should let you change the
+(g) ’C’: If fill mode is active, pressing ’C’ must let you change the current fill type and colors, else it should let you change the
 attributes of the pen.
 (h) ’Esc’: Exit the program.
 
